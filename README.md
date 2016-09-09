@@ -1,6 +1,10 @@
-# wiki (start here!)
+# Wiki
 
-We plan to turn this repository into a store of knowledge for the lab. This includes:
+**IMPORTANT**: before you make any changes, read this entire file. Refer to the [markdown formatting guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) liberally.
+
+## Purpose
+
+We are in the process of storing lab knowledge here. This includes:
 
 1. Coding best practices
 2. Vesta information (pacakges, maintenance, etc.)
@@ -10,19 +14,21 @@ We plan to turn this repository into a store of knowledge for the lab. This incl
 
 Any lab member can edit the markdown (.md) files in this package! We have a purposefully open policy on editing here, so that this works like a wiki rather than a more traditional git repo with a few owners moderating pull requests.
 
-# How do I use this thing?
+### Note
 
-You will need git on your local machine.
+If you copy-paste blocks of unformatted text, we may rollback your commits without warning and ask you to do it again. Please use some simple markdown formatting (click the [guide link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)).
 
-Editing is done in markdown: you can find a [cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+## How do I use git?
+
+You will need git on your local machine. Just do a search for "install git on my OS". If you have any trouble, ping George, Chris or Tom.
 
 You can find an [interactive git tutorial](https://try.github.io/levels/1/challenges/1) here.
 
-## Web editing
+### Web editing
 
 You can edit in a web browser by navigating to the file you want to edit and clicking the little pencil (top right). Be careful! This is not useful for long editing sessions.
 
-## Local editing
+### Local editing
 
 The preferred way to edit is to *clone* this repository to your local machine, then edit and *push* it back to GitHub.
 
