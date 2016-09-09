@@ -14,6 +14,8 @@ Any lab member can edit the markdown (.md) files in this package! We have a purp
 
 You will need git on your local machine.
 
+Editing is done in markdown: you can find a [cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
 You can find an [interactive git tutorial](https://try.github.io/levels/1/challenges/1) here.
 
 ## Web editing
@@ -24,8 +26,8 @@ You can edit in a web browser by navigating to the file you want to edit and cli
 
 The preferred way to edit is to *clone* this repository to your local machine, then edit and *push* it back to GitHub.
 
-  cd /path/to/my/directory
-  git clone https://github.com/socdyn/wiki
+```cd /path/to/my/directory
+git clone https://github.com/socdyn/wiki```
 
 Open the file you want to edit with your editor, do your thing, and then
 
