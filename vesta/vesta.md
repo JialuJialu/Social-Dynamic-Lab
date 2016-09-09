@@ -5,7 +5,7 @@
 You can ssh into Vesta from the command line:
 `ssh net_id@vesta.soc.cornell.edu`
 
-If you need to create an ssh key there is a useful (tutorial here)[https://help.github.com/articles/generating-an-ssh-key/]
+If you need to create an ssh key there is a useful [tutorial here](https://help.github.com/articles/generating-an-ssh-key/)
 
 You will need the Vesta admin to register your ssh publickey on Vesta in order to login.
 
@@ -32,7 +32,7 @@ e.g. `scp net_id@vesta.soc.cornell.edu:/Users/net_id/filename /Users/Me/Desktop`
 
 This saves the file filename on your desktop. 
 
-(This link contains an explanation with additional examples)[http://www.hypexr.org/linux_scp_help.php]
+[This link contains an explanation with additional examples](http://www.hypexr.org/linux_scp_help.php)
 
 Generally, if you want to be transferring files to Vesta you should be using Github to push your local code
 and then put it into Vesta.
