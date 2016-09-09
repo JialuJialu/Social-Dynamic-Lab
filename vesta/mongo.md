@@ -18,6 +18,7 @@ So if I were doing a project on Bernie Sanders, I would organize all of my Berni
 
 1. Performing certain operations on large collections is really slow. Mongo is a really bad place to do complicated operations on your data
 2. You're basically limited to using a Python wrapper around Mongo, unless you want to invest some serious time
+3. It's a lot of work to assess the correctness of your databases. I.e. does every Tweet document have an entry called "time"? Is it always an integer? These kinds of questions can be difficult to answer with Mongo.
 
 ## In sum
 
