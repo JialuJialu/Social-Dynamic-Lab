@@ -20,7 +20,7 @@ If you copy-paste blocks of unformatted text, we may rollback your commits witho
 
 ## How do I use git?
 
-You will need git on your local machine. Just do a search for "install git on my OS". If you have any trouble, ping George, Chris or Tom.
+You will need git on your local machine. Just do a search for "install git on my OS". If you have any trouble, ping an admin.
 
 You can find an [interactive git tutorial](https://try.github.io/levels/1/challenges/1) here.
 
