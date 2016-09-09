@@ -35,4 +35,4 @@ This saves the file filename on your desktop.
 [This link contains an explanation with additional examples](http://www.hypexr.org/linux_scp_help.php)
 
 Generally, if you want to be transferring files to Vesta you should be using Github to push your local code
-and then put it into Vesta.
+and then pull it into Vesta.
