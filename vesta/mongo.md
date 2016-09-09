@@ -22,6 +22,8 @@ So if I were doing a project on Bernie Sanders, I would organize all of my Berni
 
 ## In sum
 
+Use Mongo for your crawling and exporting, but not your analysis.
+
 # How to transfer a collection from one database to another
 
 You must have ownership or admin privileges over each database to do this. While there are potentially solutions in
