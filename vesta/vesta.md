@@ -10,7 +10,7 @@ If you need to create an ssh key there is a useful tutorial here: https://help.g
 You will need the Vesta admin to register your ssh publickey on Vesta in order to login.
 
 Dependning on your system you may also need to specify the location of your .ssh private key before the address
-e.g. ssh ~/.ssh/id_rsa net_id@vesta.soc.cornell.edu
+e.g. "ssh ~/.ssh/id_rsa net_id@vesta.soc.cornell.edu"
 
 # Navigating Vesta through shell commands:
 
