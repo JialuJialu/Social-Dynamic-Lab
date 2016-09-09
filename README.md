@@ -26,13 +26,17 @@ You can edit in a web browser by navigating to the file you want to edit and cli
 
 The preferred way to edit is to *clone* this repository to your local machine, then edit and *push* it back to GitHub.
 
-```cd /path/to/my/directory
-git clone https://github.com/socdyn/wiki```
+```
+cd /path/to/my/directory
+git clone https://github.com/socdyn/wiki
+```
 
 Open the file you want to edit with your editor, do your thing, and then
 
-  git add . file_you_edited.md
-  git commit -m 'Descriptive commit message here'
-  git push origin master
+```
+git add . file_you_edited.md
+git commit -m 'Descriptive commit message here'
+git push origin master
+```
 
 That's it! Good job!
