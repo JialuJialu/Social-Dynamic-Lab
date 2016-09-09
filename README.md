@@ -45,4 +45,8 @@ git commit -m 'Descriptive commit message here'
 git push origin master
 ```
 
+#### Local editors:
+Mac users can get [MacDown] (https://github.com/MacDownApp/macdown) for local editing. Use the github2 style rendering for extra compatibility. 
+
+
 That's it! Good job!
