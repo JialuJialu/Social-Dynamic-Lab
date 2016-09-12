@@ -6,6 +6,9 @@ writing and debugging code, both due to the functionality of the notebooks and
 because it allows you to see your files and write code in the browser on your
 local machine.
 
+You can find out more about Jupyter Notebooks
+[here](http://jupyter.readthedocs.io/en/latest/index.html)
+
 ## On Vesta:
 
 You must first open up Jupyter Notbooks in headless mode on the server using
@@ -17,6 +20,9 @@ users use the same port then it will result in conflicts. The number itself is
 arbitrary but must be the same in all of these commands.
 
 ## On your local machine:
+
+You must have Jupyter Notebooks installed locally. You can find instructions on
+downloading the latest version [here](http://jupyter.readthedocs.io/en/latest/install.html)
 
 You can now connect to the Notebook on your local machine using an ssh tunnel.
 
