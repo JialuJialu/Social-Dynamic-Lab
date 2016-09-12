@@ -36,6 +36,13 @@ executable using `sudo chmod 755 file_name` and enter your password.
 
 You can then run the file in the command line by typing `./file_name`
 
+##Troubleshooting
+You may run into issues with the port on your local machine already being in use.
+This can happen sometimes if you disconnect and then reconnect to the notebook
+locally. To solve this you can kill the processes running on the port using the
+command `sudo kill $(sudo lsof -t -i:8888)` but remember to use caution when
+using `sudo`!
+
 ## Using in combination with screen:
 To use it most efficiently you should also familiarize yourself with `screen`.
 This will allow you to keep your notebook running and maintain your local
