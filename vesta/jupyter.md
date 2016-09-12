@@ -34,6 +34,8 @@ To help to speed this process up you can save these two commands in a text file 
 run it as a shell script. You will need to change the permissions to make it
 executable using `sudo chmod 755 file_name` and enter your password.
 
+You can then run the file in the command line by typing `./file_name`
+
 ## Using in combination with screen:
 To use it most efficiently you should also familiarize yourself with `screen`.
 This will allow you to keep your notebook running and maintain your local
