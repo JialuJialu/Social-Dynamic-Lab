@@ -48,7 +48,7 @@ command `sudo kill $(sudo lsof -t -i:8888)` but remember to use caution when
 using `sudo`!
 
 ## Using in combination with screen:
-To use it most efficiently you should also familiarize yourself with `screen`.
+To use it most efficiently you should also familiarize yourself with [screen](https://github.com/socdyn/wiki/blob/master/vesta/use_screen.md).
 This will allow you to keep your notebook running and maintain your local
 connection to Vesta even when you are not connected in the command line.
 All you need to do is open a screen session on vesta, run the command to start
