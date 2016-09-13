@@ -38,9 +38,7 @@ as if you are logged into Vesta.
 
 To help to speed this process up you can save these two commands in a text file and
 run it as a shell script. You will need to change the permissions to make it
-executable using `sudo chmod 755 file_name` and enter your password.
-
-You can then run the file in the command line by typing `./file_name`
+executable using `chmod 755 file_name`. You can then run the file in the command line by typing `./file_name`
 
 ##Troubleshooting
 You may run into issues with the port on your local machine already being in use.
