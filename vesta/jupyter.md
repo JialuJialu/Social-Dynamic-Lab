@@ -19,6 +19,8 @@ are setting up a document where you can each claim a port number. If multiple
 users use the same port then it will result in conflicts. The number itself is
 arbitrary but must be the same in all of these commands.
 
+Please notify an admin when you choose a port number.
+
 ## On your local machine:
 
 You must have Jupyter Notebooks installed locally. You can find instructions on
