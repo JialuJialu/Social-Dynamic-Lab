@@ -1,17 +1,21 @@
-#Use Screen to keep your session running when you disconnect
+#Use Screen to keep your session running when you disconnect from Vesta
 
-### Keep your SSH session running when you disconnect &
-### Keep an IPython/Jupyter Notebook running on the server that can be accessed locally
+###Keep your processes running even when you disconnect from Vesta and/or turn off your local machine
 from [howtogeek.com](http://www.howtogeek.com/howto/ubuntu/keep-your-ssh-session-running-when-you-disconnect/)
 and [here](http://aperiodic.net/screen/quick_reference).
 
 Screen is like a window manager for your console. It will allow you to keep multiple terminal sessions running and easily switch between them. It also protects you from disconnects, because the screen session doesn’t end when you get disconnected. This means you can keep a process running on Vesta even if your local machine is
-turned off or not connected to the internet. It is particularly useful in combination with Jupyter Notebooks.
+turned off or not connected to the internet.
 
-Now you can start a new screen session by just typing `screen` at the command line. You’ll be shown some information about screen. Hit `enter`, and you’ll be at a normal prompt.
 
-You are encouraged to give your screen session a name, you can start a new screen with a name by typing
-`screen -S name` where `name` is the chosen name.
+This is particularly useful if you have a process that will take a long time (e.g. scraping a website or API) or
+if you want to [keep a Jupyter Notebook running on the server that can then be accessed locally](https://github.com/socdyn/wiki/blob/master/vesta/jupyter.md).
+
+Now you can start a new screen session by just typing `screen` at the command line. Hit `Enter`, and you’ll be you'll see that your window has changed into a bash-3.2 shell. You will still be in the same directory as you were before (you can verify this by typing `pwd`) but you are in a clean window. Any processes you run in this
+window will remain running as long as you detach from it correctly.
+
+We strongly recommend you give your screen session a name, you can start a new screen with a name by typing
+`screen -S name` where `name` is the your chosen name.
 
 To **disconnect** (but leave the session running)
 Hit `Ctrl + A` and then `D` in immediate succession (i.e. Press and hold Ctrl and type A, release, then hit D).
