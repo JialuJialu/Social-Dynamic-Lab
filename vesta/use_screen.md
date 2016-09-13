@@ -29,7 +29,7 @@ you can reconnect to any of them using the command `screen -r name`.
 
 To **quit** you can either type `exit` and hit Enter, type `Ctrl+A` then `:quit`,
 or type `Ctrl+A` then `Ctrl+\`, which will ask if you want to quit. This will
-permanently close the screen session.
+permanently close the screen session. `Ctrl + D` will also terminate your screen.
 
 To **view the help** for screen, type `Ctrl + A` and then `Shift+?`.
 This will show you the different options available.
@@ -49,4 +49,14 @@ Note the red and blue bar at the bottom of the terminal window. Will show the
 window you are currently located in.
 
 To **list** open screen windows  
-Hit `Ctrl + A` and then `W` in immediate succession.
+Hit `Ctrl + A` and then `W` in immediate succession. 
+Additionally, you can write `screen -ls` to list all your screens open and to know which one you are attached or detached to.
+
+To **detach** a screen without being currently connected to it you can use `screen -d name`. This may be helpful when you are attached to multiple screens 
+(which may happen if you do `screen -r name` while being attached to another screen).
+
+---
+Last but not least, you should get familiar with using `man specific-command` in the terminal. This gives you detailed information of all the installed commands available in bash.
+For instance, if you write `man screen` you will see a brief description of the command and all the command-line options along with other useful information. This
+is EXTREMELY helpful.
+
