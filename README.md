@@ -20,7 +20,7 @@ If you copy-paste blocks of unformatted text, we may rollback your commits witho
 
 ## Editing the wiki
 
-If you have no idea what git is, check out our git tutorial at [git.md](https://github.com/socdyn/wiki/git.md).
+If you have no idea what git is, check out our git tutorial at [git.md](https://github.com/socdyn/wiki/blob/master/git.md).
 
 ### Web editing this wiki (janky)
 
