@@ -1,6 +1,6 @@
 # Wiki
 
-**IMPORTANT**: before you make any changes, read this entire file. Refer to the [markdown formatting guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) liberally.
+**IMPORTANT**: before you make any changes, read this entire file. Refer to the [markdown formatting guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) liberally. Also read our [git tutorial](https://github.com/socdyn/wiki/blob/master/git.md) for an overview of best practices.
 
 ## Purpose
 
