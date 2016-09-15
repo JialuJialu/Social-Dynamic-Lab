@@ -60,17 +60,13 @@ If you follow this rule, you will avoid most merge conflicts and simplify your l
 
 `clone` once to your local machine, then `pull -> add -> commit -> push`.
 
-### Code example
-
-To get this repo:
+Code would look something like this:
 
 ```
 git clone https://github.com/socdyn/wiki
 ```
 
 Go to the repo with `cd /path/to/cloned/repo`.
-
-Do an "edit cycle" like so:
 
 ```
 git pull origin master
