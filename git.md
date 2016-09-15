@@ -13,7 +13,7 @@ If you are using Linux, use your package manager to install git. For instance, o
 
 If you have Windows, [go here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and install git that way.
 
-## Git terminology
+## Git how-tos
 
 ### Repos and Cloning
 
@@ -56,4 +56,32 @@ If you follow this rule, you will avoid most merge conflicts and simplify your l
 
 **Congrats, you are now a git pro**
 
-To recap: you need five commands: `clone`, `pull`, `add`, `commit`, `push`. You should execute the last four in that order, and you will have a nice workflow of download, edit, upload.
+## A simple workflow that won't break stuff
+
+`clone` once to your local machine, then `pull -> add -> commit -> push`.
+
+### Code example
+
+To get this repo:
+
+```
+git clone https://github.com/socdyn/wiki
+```
+
+Go to the repo with `cd /path/to/cloned/repo`.
+
+Do an "edit cycle" like so:
+
+```
+git pull origin master
+```
+
+Edit your files, then
+
+```
+git add edited_file_1 edited_file_2
+git commit -m 'I made changes to edited_file_1 and edited_file_2!'
+git push origin master
+```
+
+**Congrats, you did it!**
