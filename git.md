@@ -35,6 +35,12 @@ After you've committed changes locally, you'll want to *push* them to the master
 
 After you *push*, your changes will be incorporated in the remote master directory at GitHub.
 
+**Note: When you push from Vesta you may find that the commit does not register on your Github profile.
+To ensure this does not happen you should make sure to set Vesta's Github configuration to your account
+using the following two list_of_page_numbers
+`git config --global user.name "your github username"`
+`git config --global user.email "the email address you use for github"`**
+
 ### Pulling
 
 Let's say you've been in Iceland for a week and you want to get caught up on the changes your colleagues have made to the repo. You'd navigate to your locally cloned repo and *pull* the latest changes from remote with `git pull origin master`. This will update all local files to match remote.
