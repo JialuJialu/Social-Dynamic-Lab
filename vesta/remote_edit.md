@@ -32,7 +32,7 @@ Download [Atom](https://atom.io/). Go to Settings (`cmd + ,`) > Install. Search 
 Go to your `~/.bash_profile` on your local machine and add this line:
 
 ```
-alias vesta='ssh -p 22 YOUR_NETID@vesta.soc.cornell.edu -L 20022:localhost:22 -L 9090:localhost:9090'
+alias vesta='ssh -p 22 YOUR_NETID@vesta.soc.cornell.edu -L 20022:[::1]:22 -L 9090:[::1]:9090'
 ```
 
 Replace `YOUR_NETID` with your netid.
