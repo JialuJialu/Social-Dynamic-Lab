@@ -37,6 +37,10 @@ alias vesta='ssh -p 22 YOUR_NETID@vesta.soc.cornell.edu -L 20022:[::1]:22 -L 909
 
 Replace `YOUR_NETID` with your netid.
 
+**Note: You may have to switch the two 9090 ports to a different number; you will get
+an error message from Atom stating that "Server version is different from client version"
+if this is the case. Change the numbers to the port shown in the error message**
+
 Type `source ~/.bash_profile` to load the alias.
 
 Go to your Terminal and type `vesta` to SSH into vesta.
